@@ -1,8 +1,8 @@
 import React from 'react'
 
- function C() {
+ function C({name}) {
   return (
-    <h1>This is third paragraph </h1>
+    <h1>This is third paragraph {name} </h1>
   )
 }
 export default C;
