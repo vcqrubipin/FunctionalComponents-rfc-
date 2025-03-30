@@ -1,11 +1,11 @@
 import React from 'react'
 import C from './C'
 
-export default function B({name}) {
+export default function B({name,newname,New3}) {
   return (
    <React.Fragment>
-    <h1>This is paragraph 2 {name}</h1>
-    <C name={name} />
+    <h3> {name}</h3>
+    <C name={newname} New3={New3} />
    </React.Fragment>
   )
 }

@@ -1,8 +1,12 @@
 import React from 'react'
+import D from './D';
 
- function C({name}) {
+ function C({name,New3}) {
   return (
-    <h1>This is third paragraph {name} </h1>
+    <React.Fragment>
+    <h1> {name} </h1>
+    <D New3={New3}/>
+    </React.Fragment>
   )
 }
 export default C;
